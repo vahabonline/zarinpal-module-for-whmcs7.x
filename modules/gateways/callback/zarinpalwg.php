@@ -1,8 +1,8 @@
 <?php
-	/**
-	* @author Masoud Amini
-	* @copyright 2013
-	*/
+    /*
+     *::: www.vahabonline.ir
+     *::: myvahab@gmail.com
+     */
 	# Required File Includes
 if(file_exists('../../../init.php'))
 {
