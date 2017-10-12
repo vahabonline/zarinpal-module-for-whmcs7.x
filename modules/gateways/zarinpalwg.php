@@ -1,8 +1,8 @@
 <?php
-/**
- * @author Masoud Amini
- * @copyright 2013
- */
+    /*
+     *::: www.vahabonline.ir
+     *::: myvahab@gmail.com
+     */
 function zarinpalwg_config() {
     $configarray = array(
      "FriendlyName" => array("Type" => "System", "Value"=>"زرین پال - وب گیت"),
