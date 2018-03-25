@@ -13,7 +13,7 @@
 	}
 
     $Amount = intval($_POST['amount']);
-    $systemUrl = $params['systemurl'];
+    $systemUrl = $_POST['systemurl'];
     
 	if($_POST['currencies'] == 'Rial'){
 		$Amount = round($Amount/10);
