@@ -47,7 +47,7 @@
 													'Amount' 		=> $Amount+$Fee,
 													'Description' 	=> 'Invoice ID: '. $_POST['invoiceid'],
 													'Email' 		=> $_POST['email'],
-													'Mobile' 		=> $_POST['cellnum'],
+													'Mobile' 		=>  str_replace(" ","",str_replace(".","",$_POST['cellnum'])),
 													'CallbackURL' 	=> $CallbackURL
 												)
 										);
